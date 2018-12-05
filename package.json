@@ -1,0 +1,15 @@
+{
+  "name": "web-view",
+  "author": "Lloyd Brookes <75pound@gmail.com>",
+  "version": "0.0.0",
+  "description": "web-view",
+  "repository": "https://github.com/75lb/web-view",
+  "keywords": [],
+  "license": "MIT",
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "test-runner test/*.js"
+  }
+}

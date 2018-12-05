@@ -1,0 +1,25 @@
+test-results {
+  display: block;
+  border: 1px green solid;
+  max-width: 550px;
+}
+
+test-result {
+  display: flex;
+}
+header {
+  display: flex;
+  font-weight: bold;
+}
+header > :nth-child(1),
+test-result > :nth-child(1)
+{ flex: 1 1 auto; }
+header > :nth-child(2),
+test-result > :nth-child(2)
+{ flex: 0 0 5em; }
+header > :nth-child(3),
+test-result > :nth-child(3)
+{ flex: 0 0 4em; }
+header > :nth-child(4),
+test-result > :nth-child(4)
+{ flex: 0 0 4em; }
